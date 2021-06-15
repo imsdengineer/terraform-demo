@@ -5,6 +5,6 @@ resource "aws_instance" "demo-ec2" {
   instance_type = "t2.micro"
   
   tags = {
-    Name = "HelloWorld"
+    Name = "newec2"
   }
 }
